@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+/*font-family: 'Raleway', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*font-family: 'Open Sans', sans-serif;*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?dxg3c7');
+    src:    url('fonts/icomoon.eot?dxg3c7#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?dxg3c7') format('truetype'),
+        url('fonts/icomoon.woff?dxg3c7') format('woff'),
+        url('fonts/icomoon.svg?dxg3c7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+    content: "\e900";
+}
+.icon-location2:before {
+    content: "\e904";
+}
+.icon-mobile2:before {
+    content: "\e905";
+}
+.icon-user:before {
+    content: "\e906";
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-cog:before {
+    content: "\e907";
+}
+.icon-star-empty:before {
+    content: "\e908";
+}
+.icon-star-full:before {
+    content: "\e909";
+}
+.icon-instagram:before {
+    content: "\e901";
+    text-decoration: none;
+    font-size: 30px;
+}
+.icon-github:before {
+    content: "\e902";
+    text-decoration: none;
+    font-size: 30px;
+}
+.icon-linkedin2:before {
+    content: "\e903";
+    text-decoration: none;
+    font-size: 30px;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cleaner{
+    clear: both;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: rgb(245,245,245);
+    border: solid 1px grey;
+    border-radius: 25px;
+    box-shadow: 0 0 15px grey;
+}
+
+.info{
+    width: auto;
+    float: left;
+}
+
+.info h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.info h2{
+    margin: 0;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 50px;
+    border-bottom: solid 2px grey;
+    padding-bottom: 30px;
+}
+
+figure{
+    margin: 0;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 100px;
+    box-shadow: 0 0 20px grey;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons a{
+    margin: 0 10px;
+    color: grey;
+}
+
+header{
+    padding-bottom: 25px;
+    border-bottom: solid 2px grey;
+}
+
+.profile{
+    padding: 40px 0;
+    border-bottom: solid 2px grey;
+}
+
+.profile p{
+    padding-left: 50px;
+}
+
+h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.skills{
+    padding: 40px 0;
+    border-bottom: solid 2px grey;
+    text-align: center;
+}
+
+.title{
+    text-align: left;
+}
+
+.skills p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.stars{
+    color: grey;
+    font-size: 25px;
+}
+
+.html5{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.css3{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.sass{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.bootstrap{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.education{
+    padding: 40px 0;
+    border-bottom: solid 2px grey;
+}
+
+h4,h5{
+    margin: 0;
+}
+
+.coder,.uade,.idc{
+    background-color: ;
+    padding-left: 50px;
+    margin-left: 50px;
+    border-left: dotted 2px grey;
+    margin-bottom: 20px;
+}
+
+.contact{
+    padding: 40px 0;
+}
+
+.izq{
+    float: left;
+    width: 45%;
+    padding-left: 50px
+}
+
+input[type=text]{
+    font-size: 25px;
+    height: 42px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: solid 1px grey;
+    box-shadow: 0 0 5px grey;
+    width: 100%;
+    padding-left: 20px;
+}
+
+input{
+    margin: 10px 0;
+}
+
+.der{
+    float: right;
+    width: 45%;
+    padding-right: 50px;
+    padding-top: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    height: 110px;
+    font-size: 25px;
+    font-family: inherit;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    box-shadow: 0 0 5px grey;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+input[type=submit]{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px grey;
+    font-weight: bold;
+}
+
+input[type=submit]:hover{
+    transition: .5s;
+}
